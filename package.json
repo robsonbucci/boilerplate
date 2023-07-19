@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "storybook dev -s ../public -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build -s ../public"
   },
   "dependencies": {
     "next": "13.4.9",
